@@ -342,7 +342,7 @@ public interface Array {
    * @since 1.2
    */
   ResultSet getResultSet (long index, int count,
-                          java.util.Map<String,Class<?>> map)
+                          java.util.Map<String,Class<?>>  map)
     throws SQLException;
     /**
      * This method frees the <code>Array</code> object and releases the resources that
